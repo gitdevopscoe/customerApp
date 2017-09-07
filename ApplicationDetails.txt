@@ -26,4 +26,4 @@ To Spin CustomerApp Docker contianer
 Step 1: Build docker tomcat contianer
  docker build -t tomcat:cutomerApp .
 Step 2: Run docker tomcat container
-docker run -d -p 49009:8080 --name tomcat tomcat:cutomerApp
+docker run -d -p 49009:8080 --name tomcat tomcat:customerApp
